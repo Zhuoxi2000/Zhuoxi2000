@@ -40,7 +40,17 @@ Benchmarks I'm building, all on one principle: **security and reliability claims
 - **Lost in the Trajectory** — sequence-position bias when LLM judges do step-level error attribution
 - plus a software-supply-chain × LLM series (SBOM / VEX / CVSS / SLSA)
 
-## 03 · OFF-COURT
+## 03 · UPSTREAM
+
+open source where the merge button is pressed by people who owe me nothing:
+
+|   | where | what |
+|---|-------|------|
+| ● | [**apache/flink-agents**](https://github.com/apache/flink-agents/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) | found, reported & fixed **3 of the 5 bugs** shipped in [0.3.1](https://flink.apache.org/2026/07/25/apache-flink-agents-0.3.1-release-announcement/) — prompt templating, cross-language tool schemas, Anthropic integration |
+
+<sub>● merged — the link goes to the receipts, not the claims</sub>
+
+## 04 · OFF-COURT
 
 ```console
 $ tail -f /var/log/edson/offcourt.log
