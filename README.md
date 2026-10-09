@@ -3,12 +3,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" width="880" alt="Terminal session: gh search shows 46 pull requests merged upstream across Apache, Google, NVIDIA, LinkedIn, MLflow and UK AISI; then an injected 'ignore previous instructions' attack against an agent gets deterministically INTERCEPTED by the oracle — leaks: 0. edson — reliable systems, reliable agents.">
+  <img src="assets/hero-dark.svg" width="880" alt="Terminal session: ls ~/upstream lists agent-infra, training+inference, eval+safety, interpretability and data-for-ai; then an injected 'ignore previous instructions' attack against an agent gets deterministically INTERCEPTED by the oracle — leaks: 0. edson — reliable systems, reliable agents.">
 </picture>
 
 <samp>
 
-[**ed-w.com**](https://ed-w.com) · [merged PRs](https://github.com/search?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged&type=pullrequests) · [open source](https://ed-w.com/#opensource) · [research](https://ed-w.com/#research) · [mail](mailto:edsonwang@mail.com)
+[**ed-w.com**](https://ed-w.com) · [contributions](https://github.com/search?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged&type=pullrequests) · [open source](https://ed-w.com/#opensource) · [research](https://ed-w.com/#research) · [mail](mailto:edsonwang@mail.com)
 
 </samp>
 
@@ -20,28 +20,16 @@ My rule for both jobs is the same: *if a claim can't be checked by an oracle, it
 
 ## 01 · UPSTREAM
 
-**46 pull requests merged into 24 repositories I don't own** — the merge button pressed by people who owe me nothing.
-[every receipt →](https://github.com/search?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged&type=pullrequests)
+I contribute code back across five layers of the AI stack — to projects at **Apache · Google · NVIDIA · LinkedIn · Alibaba · IBM Research · Databricks · LangChain · Uber · UK AI Security Institute**.
+Pick a project to see the actual work, or [see it all at once →](https://github.com/search?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged&type=pullrequests)
 
-| merged | where | what |
-|---:|---|---|
-| 16 | [**apache/flink-agents**](https://github.com/apache/flink-agents/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>Apache</sub> | home turf — vLLM support, multimodal content blocks + OpenAI/Ollama multimodal, provider tool-call fixes, and [3 of the 5 bugs](https://flink.apache.org/2026/07/25/apache-flink-agents-0.3.1-release-announcement/) shipped in 0.3.1. OTel GenAI trace exporter in review |
-| 1 | [**docling-project/docling**](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★68k · IBM Research</sub> | XBRL: divide units keep their denominator |
-| 1 | [**mlflow/mlflow**](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★28k</sub> | GenAI semconv export: tool-call responses under the `response` key |
-| 1 | [**NVIDIA/SkillSpector**](https://github.com/NVIDIA/SkillSpector/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★20k · NVIDIA</sub> | agent-skill scanner: TR2/TR3 no longer over-read trigger descriptions |
-| 1 | [**langchain-ai/openwiki**](https://github.com/langchain-ai/openwiki/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★17k · LangChain</sub> | malformed percent escapes no longer abort a whole generation |
-| 3 | [**modelscope/ms-swift**](https://github.com/modelscope/ms-swift/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★16k · Alibaba</sub> | Anthropic `tool_result`↔`tool_use` pairing, Kimi-K2.5 tool-call ids, ReAct / Seed-OSS templates |
-| 1 | [**neuml/txtai**](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★13k</sub> | native `vstack` merges keep every row |
-| 2 | [**feast-dev/feast**](https://github.com/feast-dev/feast/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★7k</sub> | REST feature server: `feature_view_metadata` returned, NaN/Inf no longer a 500 |
-| 1 | [**lance-format/lance**](https://github.com/lance-format/lance/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★7k</sub> | Java `DataFile` / `DeletionFile` equality includes `baseId` |
-| 1 | [**google/gemma.cpp**](https://github.com/google/gemma.cpp/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★7k · Google</sub> | truncated `IFields` data returns instead of aborting |
-| 2 | [**linkedin/Liger-Kernel**](https://github.com/linkedin/Liger-Kernel/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★7k · LinkedIn</sub> | class-level kernel patches for llama4 SwiGLU and qwen2-vl RMSNorm on transformers ≥ 5.2 |
-| 1 | [**UKGovernmentBEIS/inspect_ai**](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★3k · UK AI Security Institute</sub> | `inspect log convert --stream` keeps the error of failed evals |
-| 1 | [**modelscope/evalscope**](https://github.com/modelscope/evalscope/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>★3.5k · Alibaba</sub> | HaluEval verdicts read as whole words, not substrings |
-
-also merged: [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) ×2 · [SAELens](https://github.com/decoderesearch/SAELens/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) ×2 · [circuit-tracer](https://github.com/decoderesearch/circuit-tracer/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [nnsight](https://github.com/ndif-team/nnsight/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [audio.cpp](https://github.com/0xShug0/audio.cpp/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) ×2 · [mjlab](https://github.com/mujocolab/mjlab/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [uber/ADR](https://github.com/uber/ADR/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [dapr-agents](https://github.com/dapr/dapr-agents/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [a2a-java](https://github.com/a2aproject/a2a-java/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [flink-connector-kafka](https://github.com/apache/flink-connector-kafka/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged)
-
-<sub>open, awaiting review: apache/flink · microsoft/markitdown · DeepSpeed · huggingface/datasets · lerobot · sentence-transformers · NVIDIA/warp · anthropics/claude-code-action · open-telemetry/semantic-conventions-genai · apache/fluss — counts as of 2026-10-09</sub>
+| area | projects |
+|---|---|
+| **Agent infrastructure**<br><sub>Getting agents onto production-grade systems — streaming runtimes, agent protocols, durable workflows.</sub> | [apache/flink-agents](https://github.com/apache/flink-agents/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>long-term contributor</sub> · [apache/flink-connector-kafka](https://github.com/apache/flink-connector-kafka/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [dapr/dapr-agents](https://github.com/dapr/dapr-agents/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) |
+| **Training & inference**<br><sub>How models get trained and served — training kernels, fine-tuning frameworks, inference engines, multimodal and RL.</sub> | [linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [modelscope/ms-swift](https://github.com/modelscope/ms-swift/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>Alibaba</sub> · [google/gemma.cpp](https://github.com/google/gemma.cpp/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>Alibaba</sub> · [0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [mujocolab/mjlab](https://github.com/mujocolab/mjlab/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) |
+| **Evaluation, safety & observability**<br><sub>Deciding whether an agent is ready to ship — eval frameworks, security scanning, tracing and semantic conventions.</sub> | [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>UK AISI</sub> · [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>Databricks</sub> · [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [modelscope/evalscope](https://github.com/modelscope/evalscope/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>Alibaba</sub> · [uber/ADR](https://github.com/uber/ADR/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) |
+| **Interpretability**<br><sub>Looking inside the model — mechanistic interpretability, sparse autoencoders, circuit tracing.</sub> | [TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [decoderesearch/SAELens](https://github.com/decoderesearch/SAELens/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [decoderesearch/circuit-tracer](https://github.com/decoderesearch/circuit-tracer/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [ndif-team/nnsight](https://github.com/ndif-team/nnsight/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) |
+| **Data for AI**<br><sub>The data models are fed — document parsing, feature stores, multimodal lakehouse formats, semantic search.</sub> | [docling-project/docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) <sub>IBM</sub> · [feast-dev/feast](https://github.com/feast-dev/feast/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [lance-format/lance](https://github.com/lance-format/lance/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) · [neuml/txtai](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AZhuoxi2000+is%3Amerged) |
 
 ## 02 · RESEARCH
 
