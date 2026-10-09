@@ -35,7 +35,7 @@ Pick a project to see the actual work, or [see it all at once →](https://githu
 
 Benchmarks where **a program, not a judge, decides right from wrong**.
 
-**NeurIPS 2026** <sub>workshop</sub> — two co-authored papers on jailbreaks and content-safety guards · [arXiv ↗](https://arxiv.org/abs/2607.26639) · [arXiv ↗](https://arxiv.org/abs/2609.26178)
+**NeurIPS 2026** — two co-authored papers on jailbreaks and content-safety guards · [arXiv ↗](https://arxiv.org/abs/2607.26639) · [arXiv ↗](https://arxiv.org/abs/2609.26178)
 
 - **Jailbreaks & content guards** — Why encoded jailbreaks slip past guards; whether a guard fails to understand or fails to enforce — and how to close the gap without taxing utility.
 - **Reliability of tool-using agents** — Do agents double-charge under ambiguous failures, drop pages when aggregating, ignore backoff contracts? Decided by deterministic oracles, not judges.
