@@ -33,25 +33,15 @@ Pick a project to see the actual work, or [see it all at once →](https://githu
 
 ## 02 · RESEARCH
 
-Benchmarks where **a program, not a judge, decides right from wrong** — software supply chain, streaming semantics, and how tool-using agents fail.
+Benchmarks where **a program, not a judge, decides right from wrong**.
 
-**first author**
+**NeurIPS 2026** <sub>workshop</sub> — two co-authored papers on jailbreaks and content-safety guards · [arXiv ↗](https://arxiv.org/abs/2607.26639) · [arXiv ↗](https://arxiv.org/abs/2609.26178)
 
-- **Can LLMs Resolve Dependencies?** A Benchmark for Semantic-Versioning Constraint Reasoning and Dependency Resolution — *IEEE ECNCT 2026* · [paper](https://ieeexplore.ieee.org/abstract/document/11661501/)
-- **Lost in the Trajectory:** Serial-Position Bias in LLM-as-Judge Step-Level Error Attribution on Agent Trajectories — *IEEE AIoTC 2026* · [paper](https://ieeexplore.ieee.org/abstract/document/11688433/)
-- **Can Large Language Models Reason about Event-Time Stream-Processing Semantics?** — *ICCVDM 2026* · [arXiv:2608.12348](https://arxiv.org/abs/2608.12348)
-- **CPEMatch:** A Controlled Benchmark for LLM Reasoning over CPE/purl Vulnerability-Identifier Applicability — *IEEE AIoTC 2026* · [paper](https://ieeexplore.ieee.org/abstract/document/11688495/)
-- **StreamSQL-Repair-Bench:** Does Execution Feedback Let Agents Fix Event-Time Streaming SQL? — *journal, 2026* · [pdf](https://fsrma.org/index.php/FSRMA/article/download/97/109)
-
-**co-authored**
-
-- When Agents Stop Counting: Measuring Paginated-Aggregation Collapse and Completeness Overconfidence in Tool-Using Language-Model Agents — *accepted, 2026* · [code + data](https://github.com/Zhuoxi2000/CompletenessCliff)
-- VulnTriage-Bench: Benchmarking LLM Vulnerability-Triage Reasoning Against a Deterministic Programmatic Oracle — *accepted, 2026*
-- Unread or Unenforced? Separating Representation from Enforcement Failure in Content Guards — [arXiv:2609.26178](https://arxiv.org/abs/2609.26178)
-- Blind, Not Weak: A Best-of-Suite Safety-Utility Frontier for Recover-and-Reguard Defenses Against Encoded VLM Jailbreaks — [arXiv:2607.26574](https://arxiv.org/abs/2607.26574)
-- Depth, Not Breadth: Best-of-N Jailbreaking Beyond Surface Noise — [arXiv:2607.26639](https://arxiv.org/abs/2607.26639)
-
-<sub>+ 5 more under review.</sub>
+- **Jailbreaks & content guards** — Why encoded jailbreaks slip past guards; whether a guard fails to understand or fails to enforce — and how to close the gap without taxing utility.
+- **Reliability of tool-using agents** — Do agents double-charge under ambiguous failures, drop pages when aggregating, ignore backoff contracts? Decided by deterministic oracles, not judges.
+- **LLM judges & evaluation methodology** — The systematic biases of LLM-as-judge — serial-position bias among them — and when an evaluation’s conclusion can actually be trusted.
+- **Software supply chain × LLM reasoning** — Version constraints, vulnerability-identifier applicability, CVSS scoring, vulnerability triage — how reliable models are on security tasks that have a ground truth.
+- **Streaming semantics × LLM** — Can models reason about event-time stream-processing semantics, and can agents repair streaming SQL from execution feedback? A mirror image of my day job.
 
 ## 03 · BUILD
 
